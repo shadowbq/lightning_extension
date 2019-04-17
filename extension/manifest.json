@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "minimum_chrome_version": "6.0",
+    "author": "shadowbq",
+    "content_scripts": [{
+        "css": ["css/custom.css"],
+        "js": ["js/jquery-1.12.4.js","js/content.js"],
+        "matches": ["https://*.lightning.force.com/lightning/*"],
+        "run_at": "document_idle"
+    }],
+    "options_page": "options.html",
+    "description": "Custom Style Script for Salesforce Lighting",
+    "name": "SalesForce Lightning Custom View",
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "homepage_url": "https://chrome.google.com/webstore/detail/npdfmcdicjcimlknokcglcobjbckkaaa",
+    "short_name": "SFLTCV",
+    "version": "1.0.5",
+    "icons": { "16": "icons/icon-16x16.png",
+        "32": "icons/icon-32x32.png",
+        "48": "icons/icon-48x48.png",
+        "96": "icons/icon-96x96.png",
+       "128": "icons/icon-128x128.png",
+       "256": "icons/icon-256x256.png",
+       "310": "icons/icon-310x310.png" }
+}

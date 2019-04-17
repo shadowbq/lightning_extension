@@ -1,0 +1,83 @@
+
+[title~="Products"] {
+    border: 5px solid yellow;
+}
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GfSAI"]{
+    display: none;
+}
+
+[title~="Leads"] {
+    border: 5px solid yellow;
+}
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GgSAI"]{
+    display: none;
+}
+
+[title~="Quotes"] {
+    border: 5px solid yellow;
+}
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GkSAI"]{
+    display: none;
+}
+
+[title~="Groups"] {
+    border: 5px solid yellow;
+}
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GiSAI"]{
+    display: none;
+}
+
+[title~="Country Sets"] {
+    border: 5px solid yellow;
+}
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GlSAI"]{
+    display: none;
+}
+
+span.appName {
+    padding: 0;
+}
+span[title="McAfee Sales Lightning"] {
+    display: none;
+}
+
+/* mbr.corp.nai.org 
+https://mcafee.lightning.force.com/lightning/n/Global_Sales_Dashboard
+*/
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GmSAI"]{
+    display: none;
+}
+
+/* Custom 360 */
+one-app-nav-bar-menu-item[data-id="0Qk1J00000003GoSAI"],
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GoSAI"]{
+    display: none;
+}
+
+/* Campaign Influence */
+one-app-nav-bar-menu-item[data-id="0Qk1J00000003GnSAI"],
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GnSAI"]{
+    display: none;
+}
+
+/* STOS Report */
+one-app-nav-bar-menu-item[data-id="0Qk1J00000003GqSAI"],
+one-app-nav-bar-item-root[data-id="0Qk1J00000003GqSAI"]{
+    display: none;
+}
+
+div[data-component-id="HomePageQuickLinks"]{
+    background-color: rgb(255, 255, 255);
+}
+
+button.oneHelpAndTrainingExperience{
+    display: none;
+}
+
+li div.setupGear{
+    display: none;
+}
+
+div[data-component-id="home_heroChart"]{
+    display: none;
+}
